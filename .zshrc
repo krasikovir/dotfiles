@@ -1,7 +1,7 @@
 # aliases
-alias ct="g++ -w -std=c++17 temp.cpp -o temp.out"
-alias st="clear && ./temp.out < input.txt"
-alias py="Python3"
+alias runp="Python3 py.py < input.txt"
+alias runcpp="g++-10 -w -std=c++17 cpp.cpp -o cpp.out && clear && ./cpp.out < input.txt"
+alias runjava="javac java.java && java java"
 alias lg='lazygit'
 alias ran='source ranger'
 

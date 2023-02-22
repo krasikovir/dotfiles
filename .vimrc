@@ -39,3 +39,4 @@ map <space>[ :bp<CR>
 map <space>f :Files<CR>
 map <space>w :Ag<CR>
 map <space>c :Bw!<CR>
+autocmd FileType c,cpp,cs,java setlocal commentstring=//\ %s
